@@ -1,0 +1,6 @@
+::1 - - [09/Mar/2022:04:12:25 +0000] "GET /category HTTP/1.1" 304 -
+::1 - - [09/Mar/2022:04:12:25 +0000] "GET /css/bootstrap.min.css HTTP/1.1" 304 -
+::1 - - [09/Mar/2022:04:12:25 +0000] "GET /css/styles.css HTTP/1.1" 304 -
+::1 - - [09/Mar/2022:04:12:26 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+::1 - - [09/Mar/2022:04:12:41 +0000] "GET /products/details/622828cdbf6cb6402a2b5e72 HTTP/1.1" 404 180
+::1 - - [09/Mar/2022:04:12:49 +0000] "GET /products/details/622828cdbf6cb6402a2b5e70 HTTP/1.1" 404 180
