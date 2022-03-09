@@ -4,15 +4,16 @@ https://git-scm.com/downloads (install)
 https://nodejs.org/en/ (install)
 
 //extension
->chrome (https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+
+> chrome (https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 
 > vscode
-githistory
-gitlens
-TabNine
-eslint
-vscode-icons
-spellCheck
+> githistory
+> gitlens
+> TabNine
+> eslint
+> vscode-icons
+> spellCheck
 
 NPM
 Basic NodeJS(in build) (Os, file, http)
@@ -32,6 +33,7 @@ Login/Logout(JWT)
 Oauth(with github)
 
 <!-- Deployment -->
+
 Heroku
 Pm2
 Docker
@@ -46,56 +48,106 @@ TelegramChat
 FIREBASE
 
 <!-- NOT -->
+
 React/Angular
 Html/css/jquery
 
 <!-- ////////////////////////// -->
+
 Node > async single threaded non bloking I/O
 
 engine v8(chrome)
 
 open source
+
 > any body can contribute to development https://www.npmjs.com
 
 npm
+
 > node package manager
 
 JSON
+
 > JavaScript Object Notation
 
 [
-    {
-        "name" : "Abdul",
-        "class" : "UI"
-    },
-    {
-        "name" : "Afzal",
-        "class" : "React"
-    }
+{
+"name" : "Abdul",
+"class" : "UI"
+},
+{
+"name" : "Afzal",
+"class" : "React"
+}
 
 ]
 
 <!-- ////// package.json ////// -->
+
 meta data > name, version, description
 packages
 script > start test
 
 <!-- ////// Step to generate package.json ////// -->
-**Node must be Installed
+
+\*\*Node must be Installed
+
 > go inside the folder using cmd/terminal
 > npm init or npm init -y (default)
 > answer all questions
 > type "yes"
 
 <!-- /////Step to install package ///// -->
-**Node must be installed
+
+\*\*Node must be installed
+
 > go inside the folder using cmd/terminal
 > npm i packagename
 
 <!-- //// -->
+
 dev dependencies
+
 <!-- ///// -->
 
-**Node must be installed
+\*\*Node must be installed
+
 > go inside the folder using cmd/terminal
 > npm i packagename --save-dev
+
+nodemon
+/////
+Global Package for window
+/////
+
+> open cmd as admin
+> npm i -g nodemon
+
+////
+Global Package for Mac Linux
+/////
+
+> open terminal
+> sudo npm i -g nodemon
+
+<!-- // es5 -->
+
+function add(a,b) {
+return a+b
+}
+add(1,2)
+
+<!-- // Es6 -->
+const add = (a,b) => {return a+b}
+
+<!-- http methods -->
+get
+post
+put
+delete
+
+<!-- CRUD -->
+C > Create (post)
+R > Read (get)
+U > Update (put)
+D > Delete (delete)
